@@ -14,4 +14,8 @@ const choice = prompt('Scegli tra pari e dispari');
 const numUtente = Number(prompt('Scegli un numero tra 1 e 5'));
 
 //Genero un numero intero casuale tra un valore minimo e uno massimo
-const numeroComputer = Math.floor(Math.random() * 5) + 1;
+const numComputer = Math.floor(Math.random() * 5) + 1;
+
+//Somma dei due numeri
+const sum = numUtente + numComputer
+
