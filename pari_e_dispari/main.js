@@ -8,9 +8,9 @@ Dichiariamo chi ha vinto.
 */
 //FUNCTIONS
 function results(number) {
-    if(number % 2 === 0){
+    if (number % 2 === 0) {
         return "pari";
-    } else{
+    } else {
         return "dispari";
     }
 }
@@ -39,9 +39,10 @@ const theResults = results(sum);
 console.log(`Ed il risultato è ${theResults}`);
 
 //Se hai vinto o no!!! facciamo logging sulla console
-if (theResults === numUtente) {
+if (numUtente === numComputer) {
+    console.log("Pareggio!"); 
+} else if (theResults === numUtente) {
     console.log("Hai vinto!!!");
 } else {
     console.log("Hai perso");
-    
 }
