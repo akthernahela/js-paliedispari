@@ -31,3 +31,10 @@ const sum = numUtente + numComputer
 const theResults = results(sum);
 console.log(`Ed il risultato è ${theResults}`);
 
+//Se hai vinto o no!!! facciamo logging sulla console
+if (theResults === numUtente) {
+    console.log("Hai vinto!!!");
+} else {
+    console.log("Hai perso");
+    
+}
