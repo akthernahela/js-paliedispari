@@ -6,3 +6,12 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 */
+
+//Chiedo all'utente di scegliere pari o dispari
+const choice = prompt('Scegli tra pari e dispari');
+
+//Chiedo all'utente di scegliere un numero da 1 a 5
+const numUtente = Number(prompt('Scegli un numero tra 1 e 5'));
+
+//Genero un numero intero casuale tra un valore minimo e uno massimo
+const numeroComputer = Math.floor(Math.random() * 5) + 1;
