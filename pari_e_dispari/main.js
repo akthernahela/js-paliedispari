@@ -24,6 +24,13 @@ const numUtente = Number(prompt('Scegli un numero tra 1 e 5'));
 //Genero un numero intero casuale tra un valore minimo e uno massimo
 const numComputer = Math.floor(Math.random() * 5) + 1;
 
+//Faccio console log
+console.log(`Hai scelto ${choice}`);
+console.log(`Il tuo numero ${numUtente}`);
+console.log(`Numero del pc ${numComputer}`);
+
+
+
 //Somma dei due numeri
 const sum = numUtente + numComputer
 
