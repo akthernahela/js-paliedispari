@@ -6,6 +6,14 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 */
+//FUNCTIONS
+function Results(number) {
+    if(number % 2 === 0){
+        return "pari";
+    } else{
+        return "dispari";
+    }
+}
 
 //Chiedo all'utente di scegliere pari o dispari
 const choice = prompt('Scegli tra pari e dispari');
