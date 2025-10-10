@@ -7,7 +7,7 @@ Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 */
 //FUNCTIONS
-function Results(number) {
+function results(number) {
     if(number % 2 === 0){
         return "pari";
     } else{
@@ -26,4 +26,8 @@ const numComputer = Math.floor(Math.random() * 5) + 1;
 
 //Somma dei due numeri
 const sum = numUtente + numComputer
+
+//Dichiariamo chi ha vinto
+const theResults = results(sum);
+console.log(`Ed il risultato è ${theResults}`);
 
