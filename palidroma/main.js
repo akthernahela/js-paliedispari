@@ -14,7 +14,7 @@ function isPalindroma(word) {
     return cleanedWord === wordReverse;
 }
 
-/*const wordUser = prompt('Scrivi una parola');
+const wordUser = prompt('Scrivi una parola');
 if (isPalindroma(wordUser)) {
     console.log('La parola è palindroma');
 } else {
